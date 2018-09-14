@@ -22,7 +22,7 @@ public class string
 
 
 }    
-//Êä³ö£º
+//shuchu:
 abcd
 xyz
 2987074
