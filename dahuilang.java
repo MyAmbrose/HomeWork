@@ -1,4 +1,4 @@
-  
+     软工11601班 王永生 java作业：数啤酒瓶唱童谣
 public class dahuilang
 {
     public static void main(String[] args)
