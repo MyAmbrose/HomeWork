@@ -1,15 +1,16 @@
- import java.io.*;
+           è½¯å·¥11601ç­  ç­çº§åºå· 32  ç‹æ°¸ç”Ÿ
+import java.io.*;
 public class Car 
 {      
 	public static void gas()
 {
-System.out.println("¼ÓÓÍ£º");
+System.out.println("åŠ æ²¹ï¼š");
 int i;
 for(i=10;i<70;i=i+5)
 {
 	System.out.println(i);
 	if(i==65)
-	System.out.println("ÓÍÏäÒÑ¼ÓÂú\n");
+	System.out.println("æ²¹ç®±å·²åŠ æ»¡\n");
 }
 
 
@@ -17,9 +18,9 @@ for(i=10;i<70;i=i+5)
 public  static void run()
 {
 	int y=650;
-System.out.println("³µ×Ó´óÔ¼»¹ÄÜĞĞÊ»");
+System.out.println("è½¦å­å¤§çº¦è¿˜èƒ½è¡Œé©¶");
 
-System.out.println(y+"¹«Àï");
+System.out.println(y+"å…¬é‡Œ");
 }
  public static void main(String[] args)throws IOException
 	{ 
@@ -28,7 +29,7 @@ System.out.println(y+"¹«Àï");
 	 int oilConsumption=10;
 	  BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in)); 
      
-      System.out.println("ÇëÕıÈ·ÊäÈëÄãÏëÖªµÀµÄÊôĞÔ:"); 
+      System.out.println("è¯·æ­£ç¡®è¾“å…¥ä½ æƒ³çŸ¥é“çš„å±æ€§:"); 
       String str = buffer.readLine();  
       if (str=="name")
       System.out.println(name); 
@@ -37,12 +38,12 @@ System.out.println(y+"¹«Àï");
       else if (str=="oilConsumption")
               System.out.println(oilConsumption); 
       else 
-    	  System.out.println("ÄúÊäÈëÊôĞÔ·Ç·¨£¬ÇëÖØĞÂÊäÈë");
+    	  System.out.println("æ‚¨è¾“å…¥å±æ€§éæ³•ï¼Œè¯·é‡æ–°è¾“å…¥");
       System.out.println(str);
 
-	System.out.println("³µ×ÓÆ·ÅÆ£º"+name);
-	System.out.println( "Æ½¾ùÃ¿ÉıÓÍ´óÔ¼ĞĞÊ»:"+oilConsumption+"¹«Àï");
-	System.out.println("ÓÍÏäÈİÁ¿£º"+tank+"L");
+	System.out.println("è½¦å­å“ç‰Œï¼š"+name);
+	System.out.println( "å¹³å‡æ¯å‡æ²¹å¤§çº¦è¡Œé©¶:"+oilConsumption+"å…¬é‡Œ");
+	System.out.println("æ²¹ç®±å®¹é‡ï¼š"+tank+"L");
 	gas();
 	run();
 	
@@ -50,6 +51,22 @@ System.out.println(y+"¹«Àï");
 
 }
 
+è¿è¡Œç»“æœï¼š
+è¯·æ­£ç¡®è¾“å…¥ä½ æƒ³çŸ¥é“çš„å±æ€§:
+tank
+æ‚¨è¾“å…¥å±æ€§éæ³•ï¼Œè¯·é‡æ–°è¾“å…¥
+tank
+è½¦å­å“ç‰Œï¼šBenchi
+å¹³å‡æ¯å‡æ²¹å¤§çº¦è¡Œé©¶:10å…¬é‡Œ
+æ²¹ç®±å®¹é‡ï¼š65L
+åŠ æ²¹ï¼š
+10
+15
+...
+65
+æ²¹ç®±å·²åŠ æ»¡
 
+è½¦å­å¤§çº¦è¿˜èƒ½è¡Œé©¶
+650å…¬é‡Œ
 
 
