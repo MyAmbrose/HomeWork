@@ -1,22 +1,22 @@
-   
+   å§“åï¼šç‹æ°¸ç”Ÿ  ç­ç´šï¼š11601ç­   åºå·ï¼š32
 public class Song {                                            
-	String songName;// ¸èÃû
-	String singer;// ¸èÊÖ
-	double time;// ¸èÇúÊ±¼ä
+	String songName;// æ­Œå
+	String singer;// æ­Œæ‰‹
+	double time;// æ­Œæ›²æ—¶é—´
        public  static void show() { 
-    	   System.out.println("ÎÒÃÇµÄ¸èÇúÓĞ£º");
+    	   System.out.println("æˆ‘ä»¬çš„æ­Œæ›²æœ‰ï¼š");
         List<String>str1 = new ArrayList<String>();
 			str1.add("1.That Girl");
-			str1.add("¸èÊÖ£ºOlly Murs");
-			str1.add("¸èÇúÊ±¼ä£º2.56·ÖÖÓ");
+			str1.add("æ­Œæ‰‹ï¼šOlly Murs");
+			str1.add("æ­Œæ›²æ—¶é—´ï¼š2.56åˆ†é’Ÿ");
 			List<String> str2 = new ArrayList<String>();
-			str2.add("2.¸¸Ç×");
-			str2.add("¸èÊÖ£º¿ê×ÓĞÖµÜ");
-			str2.add("¸èÇúÊ±¼ä£º5.00·ÖÖÓ");
+			str2.add("2.çˆ¶äº²");
+			str2.add("æ­Œæ‰‹ï¼šç­·å­å…„å¼Ÿ");
+			str2.add("æ­Œæ›²æ—¶é—´ï¼š5.00åˆ†é’Ÿ");
 			List<String> str3 = new ArrayList<String>();
 			str3.add("3.BLUE");
-			str3.add("¸èÊÖ£ºBigBang");
-			str3.add("¸èÇúÊ±¼ä£º3.53·ÖÖÓ");
+			str3.add("æ­Œæ‰‹ï¼šBigBang");
+			str3.add("æ­Œæ›²æ—¶é—´ï¼š3.53åˆ†é’Ÿ");
 		for (int i = 0; i < str1.size(); i++) {
 			System.out.println(str1.get(i));
 		}
@@ -32,33 +32,33 @@ public class Song {
 		public  static void show1() {
 			List<String>str1 = new ArrayList<String>();
 			str1.add("1.That Girl");
-			str1.add("¸èÊÖ£ºOlly Murs");
-			str1.add("¸èÇúÊ±¼ä£º2.56·ÖÖÓ");
+			str1.add("æ­Œæ‰‹ï¼šOlly Murs");
+			str1.add("æ­Œæ›²æ—¶é—´ï¼š2.56åˆ†é’Ÿ");
 			for (int i = 0; i < str1.size(); i++) {
 			System.out.println(str1.get(i));
 		}
-			System.out.println("³ª¸èÖĞ...");
+			System.out.println("å”±æ­Œä¸­...");
 		}
 			
 		public  static void show2() { 
 			List<String> str2 = new ArrayList<String>();
-			str2.add("2.¸¸Ç×");
-			str2.add("¸èÊÖ£º¿ê×ÓĞÖµÜ");
-			str2.add("¸èÇúÊ±¼ä£º5.00·ÖÖÓ");
+			str2.add("2.çˆ¶äº²");
+			str2.add("æ­Œæ‰‹ï¼šç­·å­å…„å¼Ÿ");
+			str2.add("æ­Œæ›²æ—¶é—´ï¼š5.00åˆ†é’Ÿ");
 			for (int i = 0; i < str2.size(); i++) {
 				System.out.println(str2.get(i));
 			}
-			System.out.println("³ª¸èÖĞ...");
+			System.out.println("å”±æ­Œä¸­...");
 		}
 		public  static void show3() {
 			List<String> str3 = new ArrayList<String>();
 			str3.add("3.BLUE");
-			str3.add("¸èÊÖ£ºBigBang");
-			str3.add("¸èÇúÊ±¼ä£º3.53·ÖÖÓ");
+			str3.add("æ­Œæ‰‹ï¼šBigBang");
+			str3.add("æ­Œæ›²æ—¶é—´ï¼š3.53åˆ†é’Ÿ");
 			for (int i = 0; i < str3.size(); i++) {
 				System.out.println(str3.get(i));
             }
-			System.out.println("³ª¸èÖĞ...");	
+			System.out.println("å”±æ­Œä¸­...");	
 		}
 		
 	}
@@ -69,8 +69,8 @@ public class Song {
 
 public class Master {
 
-	public static void Master() { // ¹¹Ôìº¯Êı£¬³õÊ¼»¯list
-	    System.out.println("»¶Ó­½øÈëÖ÷³ÖÈËÄ£Ê½");
+	public static void Master() { // æ„é€ å‡½æ•°ï¼Œåˆå§‹åŒ–list
+	    System.out.println("æ¬¢è¿è¿›å…¥ä¸»æŒäººæ¨¡å¼");
 		Song.show();
 		System.out.println("......");
 		play();
@@ -78,13 +78,13 @@ public class Master {
 
 	}
 
-	public static void play() { // ²¥·Å¸èÇú
+	public static void play() { // æ’­æ”¾æ­Œæ›²
 
-		System.out.println("ÇëÑ¡ÔñÏ²»¶¸èÇú¶ÔÓ¦µÄĞòºÅ£º");
+		System.out.println("è¯·é€‰æ‹©å–œæ¬¢æ­Œæ›²å¯¹åº”çš„åºå·ï¼š");
 		for (int m = 0; m < 4; m++) {
 			int x;
 			Scanner input = new Scanner(System.in);
-			x = input.nextInt(); // Ö÷³ÖÈËÊäÈë¸èµ¥ĞòºÅ
+			x = input.nextInt(); // ä¸»æŒäººè¾“å…¥æ­Œå•åºå·
 			if (x == 1)
 				
 				Song.show1();
@@ -96,7 +96,7 @@ public class Master {
 			
 				Song.show3();
 			else {
-				System.out.println("ÄúÊäÈëĞòºÅ´íÎó£¬ÇëÖØĞÂÊäÈë");
+				System.out.println("æ‚¨è¾“å…¥åºå·é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 			}
 		}
 	}
@@ -107,16 +107,16 @@ public class Master {
 
 
 public class Player {
-	public static void addSong() { // µã¸è
-		System.out.println("»¶Ó­½øÈëÓÃ»§Ä£Ê½:");
+	public static void addSong() { // ç‚¹æ­Œ
+		System.out.println("æ¬¢è¿è¿›å…¥ç”¨æˆ·æ¨¡å¼:");
 		Song.show();
 		System.out.println("......");
-		System.out.println("ÇëÊäÈëÄúÏëÌí¼ÓµÄ¸èµ¥ĞòºÅ:");
+		System.out.println("è¯·è¾“å…¥æ‚¨æƒ³æ·»åŠ çš„æ­Œå•åºå·:");
 		for (int m = 0; m < 4; m++) {
 			int x;
 			Scanner input = new Scanner(System.in);
-			x = input.nextInt(); // ¿Í»§ÊäÈë¸èµ¥ĞòºÅ
-			System.out.println("ÄúµãµÄ¸èÇúÎª:");
+			x = input.nextInt(); // å®¢æˆ·è¾“å…¥æ­Œå•åºå·
+			System.out.println("æ‚¨ç‚¹çš„æ­Œæ›²ä¸º:");
 			if (x == 1)
 				Song.show1();
 			else if (x == 2)
@@ -124,7 +124,7 @@ public class Player {
 			else if (x == 3)
 				Song.show3();
 			else
-				System.out.println("ÄúÊäÈëĞòºÅ´íÎó£¬ÇëÖØĞÂÊäÈë");
+				System.out.println("æ‚¨è¾“å…¥åºå·é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 	
 
 		}
@@ -136,22 +136,22 @@ public class Player {
 
 
 public class SongDrive {
-	public Master master;//Ö÷³ÖÈË
-	public Player player;//µã¸èµÄ
+	public Master master;//ä¸»æŒäºº
+	public Player player;//ç‚¹æ­Œçš„
 	public SongDrive() {
 		
 		     
-	}//³õÊ¼»¯MasterºÍplayer
-	public static void main(String[] args) {                                //Èë¿Úº¯Êı
-		System.out.println("»¶Ó­Ê¹ÓÃKTV¿ØÖÆÆ½Ì¨£¬ÊäÈë1£¬½øÈëÖ÷³ÖÈËÄ£Ê½£¬ÊäÈë2½øÈëÓÃ»§Ä£Ê½");
+	}//åˆå§‹åŒ–Masterå’Œplayer
+	public static void main(String[] args) {                                //å…¥å£å‡½æ•°
+		System.out.println("æ¬¢è¿ä½¿ç”¨KTVæ§åˆ¶å¹³å°ï¼Œè¾“å…¥1ï¼Œè¿›å…¥ä¸»æŒäººæ¨¡å¼ï¼Œè¾“å…¥2è¿›å…¥ç”¨æˆ·æ¨¡å¼");
 		int x;
 		Scanner input = new Scanner(System.in);
-		x = input.nextInt();                                              //ÊäÈëĞòºÅÈ·¶¨½øÈëÖ÷³ÖÈËÄ£Ê½orÓÃ»§Ä£Ê½
+		x = input.nextInt();                                              //è¾“å…¥åºå·ç¡®å®šè¿›å…¥ä¸»æŒäººæ¨¡å¼orç”¨æˆ·æ¨¡å¼
 		if(x==1)
 		Master.Master();
 		else if(x==2)
 			Player.addSong();
-		else System.out.println("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë");
+		else System.out.println("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 	}
 	
 	}
