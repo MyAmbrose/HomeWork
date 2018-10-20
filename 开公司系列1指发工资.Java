@@ -1,3 +1,4 @@
+
 package fagongzi;
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -7,16 +8,16 @@ import java.util.Scanner;
 public class Employee extends Person 
 {
 	public static void employeeshow(){
-	      System.out.println("ÇëÊäÈëÔ±¹¤ĞÕÃû£º");
+	      System.out.println("è¯·è¾“å…¥å‘˜å·¥å§“åï¼š");
 		  Scanner input =new Scanner(System.in);	  
 	      String name = input.nextLine();
 	 /*     Random rand = new Random();
 	      int salary =(rand.nextInt(5000) + 10000);*/
-	      int salary = 6000;          //¿ÉÒÔËæ»ú³éÈ¡Ò»¸öÊı×÷Îª¹¤×Ê£¬ÕâÀïÎÒÃÇ½«salary³õÊ¼ÖµÎª6000
-	      System.out.println(name+"µÄ¹¤×ÊÎª:"+salary+"Ôª"+"\n");
-	      SimpleDateFormat df = new SimpleDateFormat("yyyy-MM");//ÉèÖÃÈÕÆÚ¸ñÊ½
-	      System.out.println("ÏÖÔÚÊ±¼äÎª"+df.format(new Date()));// new Date()Îª»ñÈ¡µ±Ç°ÏµÍ³Ê±¼ä
-	      System.out.println("±¾ÔÂÎª"+name+"ÉúÈÕ£¬½±Àø666Ôª");
+	      int salary = 6000;          //å¯ä»¥éšæœºæŠ½å–ä¸€ä¸ªæ•°ä½œä¸ºå·¥èµ„ï¼Œè¿™é‡Œæˆ‘ä»¬å°†salaryåˆå§‹å€¼ä¸º6000
+	      System.out.println(name+"çš„å·¥èµ„ä¸º:"+salary+"å…ƒ"+"\n");
+	      SimpleDateFormat df = new SimpleDateFormat("yyyy-MM");//è®¾ç½®æ—¥æœŸæ ¼å¼
+	      System.out.println("ç°åœ¨æ—¶é—´ä¸º"+df.format(new Date()));// new Date()ä¸ºè·å–å½“å‰ç³»ç»Ÿæ—¶é—´
+	      System.out.println("æœ¬æœˆä¸º"+name+"ç”Ÿæ—¥ï¼Œå¥–åŠ±666å…ƒ");
 		
 	     	
     }
@@ -34,15 +35,15 @@ import java.util.Scanner;
 public class Manager extends Person {
 	
 	public static void managershow() {
-		System.out.println("ÇëÊäÈë¾­ÀíĞÕÃû£º");
+		System.out.println("è¯·è¾“å…¥ç»ç†å§“åï¼š");
 	    Scanner input =new Scanner(System.in);	  
 	    String name = input.nextLine();
 	     double salary=40000; 
-	     int  bonus=1500;//¾­Àí¹¤×ÊÎª40000£¬Ã¿ÔÂ½±½ğÎª1500
-	     System.out.println(name+"µÄ¹¤×ÊÎª£º"+salary+"Ôª"+"\n"+"Ã¿ÔÂ½±½ğÎª£º"+bonus+"Ôª");   
-	     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM");//ÉèÖÃÈÕÆÚ¸ñÊ½
-	      System.out.println("ÏÖÔÚÊ±¼äÎª"+df.format(new Date()));// new Date()Îª»ñÈ¡µ±Ç°ÏµÍ³Ê±¼ä
-	     System.out.println("±¾ÔÂÎª"+name+"ÉúÈÕ£¬½±Àø888Ôª");
+	     int  bonus=1500;//ç»ç†å·¥èµ„ä¸º40000ï¼Œæ¯æœˆå¥–é‡‘ä¸º1500
+	     System.out.println(name+"çš„å·¥èµ„ä¸ºï¼š"+salary+"å…ƒ"+"\n"+"æ¯æœˆå¥–é‡‘ä¸ºï¼š"+bonus+"å…ƒ");   
+	     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM");//è®¾ç½®æ—¥æœŸæ ¼å¼
+	      System.out.println("ç°åœ¨æ—¶é—´ä¸º"+df.format(new Date()));// new Date()ä¸ºè·å–å½“å‰ç³»ç»Ÿæ—¶é—´
+	     System.out.println("æœ¬æœˆä¸º"+name+"ç”Ÿæ—¥ï¼Œå¥–åŠ±888å…ƒ");
 	}
 }
 
@@ -55,19 +56,19 @@ import java.util.Scanner;
 public class Partner extends Person  {
 	public static void partnershow() {
 	 	Random rand = new Random();
-	        double turnover=(rand.nextInt(1500000) + 1000000.30);     //Ëæ»úÑ¡È¡Ò»¸öÔÚ150Íòµ½250ÍòÖ®¼äµÄµÄÊı 
-		   System.out.print("Ëæ»ú²úÉú¹«Ë¾ÔÂÏúÊÛ¶îÎª:");
+	        double turnover=(rand.nextInt(1500000) + 1000000.30);     //éšæœºé€‰å–ä¸€ä¸ªåœ¨150ä¸‡åˆ°250ä¸‡ä¹‹é—´çš„çš„æ•° 
+		   System.out.print("éšæœºäº§ç”Ÿå…¬å¸æœˆé”€å”®é¢ä¸º:");
 		   System.out.print(turnover+"\n");
-		   System.out.println("ÇëÊäÈë¹É¶«ĞÕÃû£º");
+		   System.out.println("è¯·è¾“å…¥è‚¡ä¸œå§“åï¼š");
 		   Scanner input =new Scanner(System.in);	  
-		    String name = input.nextLine();                         //³õ²½Éè¶¨¹«Ë¾5Ãû¹É¶«£¬Ã¿Î»¹É¶«¹É·İÎª°Ù·ÖÖ®20¡£
+		    String name = input.nextLine();                         //åˆæ­¥è®¾å®šå…¬å¸5åè‚¡ä¸œï¼Œæ¯ä½è‚¡ä¸œè‚¡ä»½ä¸ºç™¾åˆ†ä¹‹20ã€‚
 	         // Scanner input =new Scanner(System.in);	  
-	         //String turnover = input.nextLine();   //ÊÖ¶¯ÊäÈë¹«Ë¾Óª¶î    ×Ö·û´®      
+	         //String turnover = input.nextLine();   //æ‰‹åŠ¨è¾“å…¥å…¬å¸è¥é¢    å­—ç¬¦ä¸²      
 		     //int turnover = input.nextInt();       //   int
 		     //double turnover = input.nextDouble();
-		        double  lirun = turnover-50*6000-2*40000-2*1500;  //Ã¿ÔÂÀûÈó=ÓªÒµ¶î-Ô±¹¤¹¤×Ê-¾­Àí¹¤×Ê-¾­Àí½±½ğ,ÄêÖÕ·ÖºìÔò*12
+		        double  lirun = turnover-50*6000-2*40000-2*1500;  //æ¯æœˆåˆ©æ¶¦=è¥ä¸šé¢-å‘˜å·¥å·¥èµ„-ç»ç†å·¥èµ„-ç»ç†å¥–é‡‘,å¹´ç»ˆåˆ†çº¢åˆ™*12
 		        double fenhong=0.1*0.2*lirun*12;
-		        System.out.println(name+"¹É¶«ÄêÖÕ·ÖºìÎª£º"+fenhong+"Ôª"); 
+		        System.out.println(name+"è‚¡ä¸œå¹´ç»ˆåˆ†çº¢ä¸ºï¼š"+fenhong+"å…ƒ"); 
 		        
 	}
 
@@ -85,10 +86,10 @@ import java.util.Scanner;
 
 
 	class Gradation{
-    static Connection con;      //ÉùÃ÷connection¶ÔÏó
-    static Statement sql;       // ÉùÃ÷statement¶ÔÏó
-    static ResultSet res;       //´´½¨RrsultSet¶ÔÏó
-    public static Connection getConnection() {                           //Á¬½ÓÊı¾İ¿â·½·¨
+    static Connection con;      //å£°æ˜connectionå¯¹è±¡
+    static Statement sql;       // å£°æ˜statementå¯¹è±¡
+    static ResultSet res;       //åˆ›å»ºRrsultSetå¯¹è±¡
+    public static Connection getConnection() {                           //è¿æ¥æ•°æ®åº“æ–¹æ³•
     	String driverName="com.microsoft.sqlserver.jdbc.SQLServerDriver";
 		String dbURL="jdbc:sqlserver://localhost:1433;DatabaseName=Test";
 		String userName="sa";
@@ -96,48 +97,48 @@ import java.util.Scanner;
 		try
 		{
 		Class.forName(driverName);
-		System.out.println("¼ÓÔØÇı¶¯³É¹¦£¡");    
+		System.out.println("åŠ è½½é©±åŠ¨æˆåŠŸï¼");    
 		}catch(Exception e){
 		e.printStackTrace();
-		System.out.println("¼ÓÔØÇı¶¯Ê§°Ü£¡");
+		System.out.println("åŠ è½½é©±åŠ¨å¤±è´¥ï¼");
 		}
 		try{
-		con=DriverManager.getConnection(dbURL,userName,userPwd);  //´´½¨µÄÁ¬½ÓÊı¾İ¿â¶ÔÏóconµÄcreatStatement()·½·¨»ñµÃStatement¶ÔÏó
+		con=DriverManager.getConnection(dbURL,userName,userPwd);  //åˆ›å»ºçš„è¿æ¥æ•°æ®åº“å¯¹è±¡conçš„creatStatement()æ–¹æ³•è·å¾—Statementå¯¹è±¡
 		//Connection dbConn=DriverManager.getConnection(dbURL,userName,userPwd);
-		System.out.println("Á¬½ÓÊı¾İ¿â³É¹¦£¡");
+		System.out.println("è¿æ¥æ•°æ®åº“æˆåŠŸï¼");
 	 
 		}catch(Exception e)
 		{
 		e.printStackTrace();
-		System.out.print("SQL ServerÁ¬½ÓÊ§°Ü£¡");
+		System.out.print("SQL Serverè¿æ¥å¤±è´¥ï¼");
 		}
-		       return con;               //·µ»ØÒ»¸ö¶ÔÏó 	  
+		       return con;               //è¿”å›ä¸€ä¸ªå¯¹è±¡ 	  
 		          }
     
-	public static void showTableSalary (){     //Ö÷·½·¨
-	    Gradation c= new Gradation();           // ´´½¨±¾Àà¶ÔÏó 
+	public static void showTableSalary (){     //ä¸»æ–¹æ³•
+	    Gradation c= new Gradation();           // åˆ›å»ºæœ¬ç±»å¯¹è±¡ 
 	    con = c.getConnection();  
 	      
 	   
 	    try {   
-	    	sql = con.createStatement(); //ÊµÀı»¯Statement¶ÔÏó
+	    	sql = con.createStatement(); //å®ä¾‹åŒ–Statementå¯¹è±¡
 	      
-	    	//Ö´ĞĞSQLÓï¾ä£¬·µ»Ø½á¹û¼¯
+	    	//æ‰§è¡ŒSQLè¯­å¥ï¼Œè¿”å›ç»“æœé›†
 	    	res = sql.executeQuery("select *from Table_Salary");
-	    	System.out.print("ÏÂÃæÎª±¾¹«Ë¾Salary±í"+"\n"); 
-	    	while (res.next()) {                //Èç¹ûµ±Ç°Óï¾ä²»ÊÇ×îºóÒ»Ìõ£¬Ôò½øÈëÑ­»·
-	    		String name = res.getString("ĞÕÃû");//»ñÈ¡ÁĞÃûÊÇidµÄ×ÖÖµ¶Î
-	    		//»ñÈ¡ÁĞÃûÊÇnameµÄ×ÖÖµ¶Î
-	    		String number = res.getString("ĞòºÅ");
-	    		String position = res.getString("Ö°Î»");
-	    		String Salary = res.getString("¹¤×Ê");
-	    		String birthday = res.getString("ÉúÈÕ");
+	    	System.out.print("ä¸‹é¢ä¸ºæœ¬å…¬å¸Salaryè¡¨"+"\n"); 
+	    	while (res.next()) {                //å¦‚æœå½“å‰è¯­å¥ä¸æ˜¯æœ€åä¸€æ¡ï¼Œåˆ™è¿›å…¥å¾ªç¯
+	    		String name = res.getString("å§“å");//è·å–åˆ—åæ˜¯idçš„å­—å€¼æ®µ
+	    		//è·å–åˆ—åæ˜¯nameçš„å­—å€¼æ®µ
+	    		String number = res.getString("åºå·");
+	    		String position = res.getString("èŒä½");
+	    		String Salary = res.getString("å·¥èµ„");
+	    		String birthday = res.getString("ç”Ÿæ—¥");
 	    	
-	    		System.out.print("ĞòºÅ:"+number+" ");
-	    		System.out.print("ĞÕÃû:"+name+" ");         //½«ÁĞÖµÊä³ö
-	    		System.out.print("Ö°Î»:"+position+" ");  
-	    		System.out.print("¹¤×Ê:"+Salary+" ");  
-	    		System.out.print("ÉúÈÕ:"+birthday+" "); 
+	    		System.out.print("åºå·:"+number+" ");
+	    		System.out.print("å§“å:"+name+" ");         //å°†åˆ—å€¼è¾“å‡º
+	    		System.out.print("èŒä½:"+position+" ");  
+	    		System.out.print("å·¥èµ„:"+Salary+" ");  
+	    		System.out.print("ç”Ÿæ—¥:"+birthday+" "); 
 	    		System.out.print("\n"); 
 	    	}
 	    	System.out.print("..."+"\n"); 
@@ -151,19 +152,19 @@ import java.util.Scanner;
 	}
 	
 	
-	public class Person {           // ³õ²½Éè¶¨¹«Ë¾5Ãû¹É¶«£¬2Ãû¾­Àí£¬50ÃûÔ±¹¤
+	public class Person {           // åˆæ­¥è®¾å®šå…¬å¸5åè‚¡ä¸œï¼Œ2åç»ç†ï¼Œ50åå‘˜å·¥
 		public String name;
 		public String birthday;
 		public double salary;
 	public static void main(String[] args) { 
 	
-		System.out.print("¿ªÊ¼Á¬½ÓÊı¾İ¿â"+"\n");          
+		System.out.print("å¼€å§‹è¿æ¥æ•°æ®åº“"+"\n");          
 		//Gradation.getConnection();
         
-		Gradation.showTableSalary();          //µ÷ÓÃÁ¬½ÓÊı¾İ¿âº¯Êı²¢ÇÒ²Ù×÷Êı¾İ¿â
+		Gradation.showTableSalary();          //è°ƒç”¨è¿æ¥æ•°æ®åº“å‡½æ•°å¹¶ä¸”æ“ä½œæ•°æ®åº“
 		
-		System.out.println("»¶Ó­Ê¹ÓÃ±¾¹«Ë¾²ÆÎñÏµÍ³£¬²éÑ¯ÆÕÍ¨Ô±¹¤Ğ½×Ê´ıÓöÇëÊäÈë1£»²éÑ¯¾­ÀíĞ½×Ê´ıÓöÇëÊäÈë2£»²éÑ¯¶­ÊÂ³ÉÔ±ÄêÖÕ·ÖºìÇëÊäÈë3£»");
-		System.out.println("ÇëÊäÈë£º");
+		System.out.println("æ¬¢è¿ä½¿ç”¨æœ¬å…¬å¸è´¢åŠ¡ç³»ç»Ÿï¼ŒæŸ¥è¯¢æ™®é€šå‘˜å·¥è–ªèµ„å¾…é‡è¯·è¾“å…¥1ï¼›æŸ¥è¯¢ç»ç†è–ªèµ„å¾…é‡è¯·è¾“å…¥2ï¼›æŸ¥è¯¢è‘£äº‹æˆå‘˜å¹´ç»ˆåˆ†çº¢è¯·è¾“å…¥3ï¼›");
+		System.out.println("è¯·è¾“å…¥ï¼š");
 		while (true) {
 			Scanner input = new Scanner(System.in);
 			int A = input.nextInt();
@@ -184,7 +185,7 @@ import java.util.Scanner;
 
 			else
 			{
-				System.out.println("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë");
+				System.out.println("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 		}
 			
 
@@ -194,3 +195,44 @@ import java.util.Scanner;
 	}
 	
 	}	
+	
+	the results:
+	å¼€å§‹è¿æ¥æ•°æ®åº“
+åŠ è½½é©±åŠ¨æˆåŠŸï¼
+è¿æ¥æ•°æ®åº“æˆåŠŸï¼
+ä¸‹é¢ä¸ºæœ¬å…¬å¸Salaryè¡¨
+åºå·:1 å§“å:é‚“çº¢ èŒä½:å‘˜å·¥ å·¥èµ„:6000.0 ç”Ÿæ—¥:19971006 
+åºå·:2 å§“å:æä¹ èŒä½:è‚¡ä¸œ å·¥èµ„:0.0 ç”Ÿæ—¥:19981109 
+åºå·:3 å§“å:æé¾™ èŒä½:å‘˜å·¥ å·¥èµ„:6000.0 ç”Ÿæ—¥:19981007 
+åºå·:4 å§“å:å²ä½³ èŒä½:è‚¡ä¸œ å·¥èµ„:0.0 ç”Ÿæ—¥:19890308 
+åºå·:5 å§“å:ç‹æ°¸ èŒä½:ç»ç† å·¥èµ„:40000.0 ç”Ÿæ—¥:19980523 
+åºå·:6 å§“å:ç‹å‹‡ èŒä½:è‚¡ä¸œ å·¥èµ„:0.0 ç”Ÿæ—¥:19971209 
+åºå·:7 å§“å:å´é¾™ èŒä½:è‚¡ä¸œ å·¥èµ„:0.0 ç”Ÿæ—¥:19960105 
+åºå·:8 å§“å:å¼ å³° èŒä½:ç»ç† å·¥èµ„:40000.0 ç”Ÿæ—¥:19951009 
+åºå·:9 å§“å:èµµç‰ èŒä½:è‚¡ä¸œ å·¥èµ„:0.0 ç”Ÿæ—¥:19951003 
+...
+æ¬¢è¿ä½¿ç”¨æœ¬å…¬å¸è´¢åŠ¡ç³»ç»Ÿï¼ŒæŸ¥è¯¢æ™®é€šå‘˜å·¥è–ªèµ„å¾…é‡è¯·è¾“å…¥1ï¼›æŸ¥è¯¢ç»ç†è–ªèµ„å¾…é‡è¯·è¾“å…¥2ï¼›æŸ¥è¯¢è‘£äº‹æˆå‘˜å¹´ç»ˆåˆ†çº¢è¯·è¾“å…¥3ï¼›
+è¯·è¾“å…¥ï¼š
+1
+è¯·è¾“å…¥å‘˜å·¥å§“åï¼š
+é‚“çº¢
+é‚“çº¢çš„å·¥èµ„ä¸º:6000å…ƒ
+
+ç°åœ¨æ—¶é—´ä¸º2018-10
+æœ¬æœˆä¸ºé‚“çº¢ç”Ÿæ—¥ï¼Œå¥–åŠ±666å…ƒ
+2
+è¯·è¾“å…¥ç»ç†å§“åï¼š
+å¼ å³°
+å¼ å³°çš„å·¥èµ„ä¸ºï¼š40000.0å…ƒ
+æ¯æœˆå¥–é‡‘ä¸ºï¼š1500å…ƒ
+ç°åœ¨æ—¶é—´ä¸º2018-10
+æœ¬æœˆä¸ºå¼ å³°ç”Ÿæ—¥ï¼Œå¥–åŠ±888å…ƒ
+3
+éšæœºäº§ç”Ÿå…¬å¸æœˆé”€å”®é¢ä¸º:1132494.3
+è¯·è¾“å…¥è‚¡ä¸œå§“åï¼š
+æä¹
+æä¹è‚¡ä¸œå¹´ç»ˆåˆ†çº¢ä¸ºï¼š179878.63200000004å…ƒ
+
+4
+è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥
+
